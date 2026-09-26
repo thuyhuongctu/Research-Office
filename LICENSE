@@ -1,0 +1,72 @@
+Copyright © 2026 Đỗ Thùy Hương (Do Thuy Huong). All rights reserved.
+Bản quyền © 2026 Đỗ Thùy Hương. Bảo lưu mọi quyền.
+
+ENGLISH
+
+This repository and the web page it produces — the source code, the written
+content, the dialogue, the layout and lighting of the 3D scene, the
+International Business mode-of-entry board, and the character artwork in
+assets/img/ — are the copyrighted work of the author, and of the author alone.
+
+The material is published so that it can be read, consulted and cited. It is
+NOT released under an open-source or open-content licence.
+
+No permission is granted to copy, redistribute, republish, mirror, modify,
+adapt, translate, or create derivative works from this material, in whole or in
+part, for commercial or non-commercial purposes, without the prior written
+permission of the author. Automated bulk collection of the material, and its
+use for training machine-learning models, are likewise not permitted without
+prior written permission.
+
+Quotation of short extracts for academic purposes, with attribution and a
+citation to the record identified in CITATION.cff, is permitted under normal
+scholarly practice and applicable copyright exceptions.
+
+Third-party components included in this repository remain governed by their own
+licences and are not covered by the reservation above. The full inventory, with
+sources and the extent of any modification, is in THIRD-PARTY.md:
+
+  - three.js (r128), assets/vendor/three-r128.min.js — MIT Licence,
+    Copyright © 2010-2021 three.js authors, used unmodified;
+    licence text in assets/vendor/three-LICENSE.txt
+  - Baloo 2 and Be Vietnam Pro typefaces, assets/fonts/ — SIL Open Font
+    Licence 1.1; licence texts in assets/fonts/OFL-Baloo2.txt and
+    assets/fonts/OFL-BeVietnamPro.txt
+
+Nothing in this repository is drawn from the repository thuyhuongctu/BizOn,
+which is jointly owned. No BizOn character artwork, character name or data
+table appears here. See THIRD-PARTY.md, section 3.
+
+Permission requests and enquiries: thuyhuongctu@gmail.com
+
+TIẾNG VIỆT
+
+Kho mã này và trang web sinh ra từ nó — mã nguồn, nội dung chữ viết, lời thoại,
+bố cục và ánh sáng của cảnh 3D, bảng thang phương thức thâm nhập của phần Kinh
+doanh quốc tế, cùng tranh nhân vật trong assets/img/ — là tác phẩm thuộc bản
+quyền của tác giả, và chỉ của một mình tác giả.
+
+Tài liệu được công bố để đọc, tham khảo và trích dẫn. Đây KHÔNG phải là tác
+phẩm phát hành theo giấy phép nguồn mở hay nội dung mở.
+
+Không cho phép sao chép, phát tán lại, đăng lại, tạo bản sao lưu công khai,
+sửa đổi, chuyển thể, dịch thuật hay tạo tác phẩm phái sinh từ tài liệu này, dù
+toàn bộ hay một phần, dù vì mục đích thương mại hay phi thương mại, nếu không
+có sự đồng ý trước bằng văn bản của tác giả. Việc thu thập tự động hàng loạt và
+sử dụng tài liệu để huấn luyện mô hình học máy cũng không được phép nếu chưa có
+sự đồng ý trước bằng văn bản.
+
+Việc trích dẫn đoạn ngắn cho mục đích học thuật, có ghi nguồn và trích dẫn theo
+thông tin trong tệp CITATION.cff, được phép theo thông lệ nghiên cứu và các
+ngoại lệ của luật bản quyền.
+
+Các thành phần của bên thứ ba đi kèm trong kho mã này vẫn tuân theo giấy phép
+riêng của chúng và không thuộc phạm vi bảo lưu nêu trên: thư viện three.js r128
+(giấy phép MIT) và hai bộ chữ Baloo 2, Be Vietnam Pro (giấy phép SIL Open Font
+Licence 1.1). Bản kiểm kê đầy đủ ở tệp THIRD-PARTY.md.
+
+Kho này KHÔNG lấy gì từ kho thuyhuongctu/BizOn — kho ấy là tài sản đồng sở hữu.
+Không tranh nhân vật, không tên nhân vật, không bảng số liệu nào của BizOn xuất
+hiện ở đây. Xem THIRD-PARTY.md, mục 3.
+
+Liên hệ xin phép sử dụng: thuyhuongctu@gmail.com
