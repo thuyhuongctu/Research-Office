@@ -16,7 +16,7 @@ chạy**.
 
 ## Trong phòng có gì
 
-**Sáu nhân vật.** Đỗ Thùy Hương là người thật, và trả lời tám câu về luận án,
+**Sáu nhân vật.** Je m'appelle Hương là người thật, và trả lời tám câu về luận án,
 khung dữ liệu, các học phần đang dạy. Năm người còn lại — Mai, Linh, Tùng, An,
 Minh — là **nhân vật hư cấu**, mượn từ cảnh «Trang viên tri thức» của trang học
 thuật cá nhân; mỗi bảng hội thoại đều ghi rõ điều ấy. Họ trả lời về khung dữ
@@ -115,7 +115,7 @@ and stored in the page — **nothing is generated at run time**.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22971293.svg)](https://doi.org/10.5281/zenodo.22971293)
 
-**Six characters.** Đỗ Thùy Hương is real, and answers eight questions about
+**Six characters.** Je m'appelle Hương is real, and answers eight questions about
 the dissertation, the data frame and the courses she teaches. The other five —
 Mai, Linh, Tùng, An, Minh — are **fictional characters** carried over from the
 knowledge-estate scene of the author's academic homepage, and every dialogue
