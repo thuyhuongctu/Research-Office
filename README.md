@@ -7,6 +7,8 @@ chạy**.
 
 ▶ **[Mở văn phòng](https://thuyhuongctu.github.io/Research-Office/)**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22971293.svg)](https://doi.org/10.5281/zenodo.22971293)
+
 <!-- ẢNH BÌA: assets/img/vanphong-bia.webp -->
 ![Văn phòng nghiên cứu](assets/img/vanphong-bia.webp)
 
@@ -95,7 +97,10 @@ Baloo 2 + Be Vietnam Pro (OFL 1.1), cả hai dùng nguyên bản, kiểm kê đ�
 [`THIRD-PARTY.md`](THIRD-PARTY.md). Kho này **không lấy gì** từ kho `BizOn` —
 kho ấy là tài sản đồng sở hữu.
 
-Trích dẫn theo [`CITATION.cff`](CITATION.cff).
+Trích dẫn theo [`CITATION.cff`](CITATION.cff). DOI khái niệm —
+**[10.5281/zenodo.22971293](https://doi.org/10.5281/zenodo.22971293)** — đại diện
+mọi phiên bản và luôn dẫn tới bản mới nhất; đấy mới là DOI để trích dẫn. Riêng
+bản `v1.0` có DOI [10.5281/zenodo.22971294](https://doi.org/10.5281/zenodo.22971294).
 
 ---
 
@@ -107,6 +112,8 @@ dissertation actually studies. Every answer is written in advance by the author
 and stored in the page — **nothing is generated at run time**.
 
 ▶ **[Open the office](https://thuyhuongctu.github.io/Research-Office/)**
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22971293.svg)](https://doi.org/10.5281/zenodo.22971293)
 
 **Six characters.** Đỗ Thùy Hương is real, and answers eight questions about
 the dissertation, the data frame and the courses she teaches. The other five —
@@ -133,4 +140,6 @@ on a phone, the round buttons.
 Published for reading and citation, not released under an open licence.
 Third-party components: three.js r128 (MIT) and the Baloo 2 and Be Vietnam Pro
 typefaces (OFL 1.1), both unmodified — see [`THIRD-PARTY.md`](THIRD-PARTY.md).
-Please cite using [`CITATION.cff`](CITATION.cff).
+Please cite using [`CITATION.cff`](CITATION.cff), quoting the concept DOI
+**[10.5281/zenodo.22971293](https://doi.org/10.5281/zenodo.22971293)**, which
+represents every version and always resolves to the latest one.

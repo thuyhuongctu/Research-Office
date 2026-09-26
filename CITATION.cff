@@ -54,5 +54,6 @@ keywords:
   - offline-first
   - bilingual
   - Vietnam
-# DOI khái niệm — điền sau bản phát hành đầu tiên trên Zenodo.
-# doi: 10.5281/zenodo.XXXXXXXX
+# DOI khái niệm — đại diện MỌI phiên bản, luôn dẫn tới bản mới nhất.
+# Đây mới là DOI để trích dẫn; DOI riêng của v1.0 là 10.5281/zenodo.22971294.
+doi: 10.5281/zenodo.22971293
