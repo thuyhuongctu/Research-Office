@@ -1,0 +1,58 @@
+# Siêu dữ liệu trích dẫn. GitHub hiện nút "Cite this repository" từ tệp này, và
+# Zenodo đọc nó khi lưu trữ mỗi bản phát hành — kể cả danh sách tác giả, để bản
+# phát hành được ghi công cho tác giả chứ không phải cho tài khoản đã đẩy commit.
+#
+# SAU BẢN PHÁT HÀNH ĐẦU TIÊN: Zenodo cấp hai DOI — một DOI khái niệm (concept
+# DOI, đại diện mọi phiên bản) và một DOI riêng cho bản v1.0. Điền DOI khái niệm
+# vào dòng `doi:` đang chú thích ở cuối tệp này rồi commit lại.
+#
+# Citation metadata. GitHub renders "Cite this repository" from this file, and
+# Zenodo reads it when archiving each release.
+cff-version: 1.2.0
+message: >-
+  © 2026 Đỗ Thùy Hương. All rights reserved — see LICENSE. The work is
+  published for reading and citation, not for reuse. If you cite it, please
+  use the reference below. / Bản quyền © 2026 Đỗ Thùy Hương, bảo lưu mọi
+  quyền — xem tệp LICENSE. Công trình được công bố để đọc và trích dẫn,
+  không phát hành theo giấy phép mở. Xin trích dẫn như bên dưới.
+type: software
+title: "Văn phòng nghiên cứu · Research Office: an offline 3D research office with a mode-of-entry board for International Business teaching"
+abstract: >-
+  A self-contained, bilingual (Vietnamese–English) 3D research office that runs
+  entirely in the browser. The visitor walks through a single room and speaks
+  with six characters: the author, and five fictional characters carried over
+  from the knowledge-estate scene of the author's academic homepage. Every
+  answer is written in advance by the author and stored in the page; nothing is
+  generated at run time and the page makes no network request of any kind once
+  loaded. A mode-of-entry board on the right-hand wall sets out seven entry
+  modes, from exporting to foreign direct investment, each anchored to a
+  standard International Business theory — the Uppsala model, transaction-cost
+  economics, agency theory, the CAGE framework, the resource-based view, the
+  born-global perspective, and Dunning's OLI paradigm. It is used as open
+  teaching material for an undergraduate International Business course. Built
+  from plain HTML, CSS and JavaScript with three.js; no build step, no
+  server-side component, no analytics and no third-party request.
+authors:
+  - family-names: "Do"
+    given-names: "Thuy Huong"
+    orcid: "https://orcid.org/0000-0002-7711-2487"
+    email: "thuyhuongctu@gmail.com"
+    affiliation: "Can Tho University"
+version: "1.0"
+date-released: 2026-09-26
+license-url: "https://github.com/thuyhuongctu/Research-Office/blob/main/LICENSE"
+repository-code: "https://github.com/thuyhuongctu/Research-Office"
+url: "https://thuyhuongctu.github.io/Research-Office/"
+keywords:
+  - international business
+  - entry mode
+  - internationalization
+  - teaching material
+  - open educational resource
+  - interactive 3D
+  - WebGL
+  - offline-first
+  - bilingual
+  - Vietnam
+# DOI khái niệm — điền sau bản phát hành đầu tiên trên Zenodo.
+# doi: 10.5281/zenodo.XXXXXXXX
