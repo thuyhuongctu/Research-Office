@@ -2,12 +2,21 @@
 # Zenodo đọc nó khi lưu trữ mỗi bản phát hành — kể cả danh sách tác giả, để bản
 # phát hành được ghi công cho tác giả chứ không phải cho tài khoản đã đẩy commit.
 #
-# SAU BẢN PHÁT HÀNH ĐẦU TIÊN: Zenodo cấp hai DOI — một DOI khái niệm (concept
-# DOI, đại diện mọi phiên bản) và một DOI riêng cho bản v1.0. Điền DOI khái niệm
-# vào dòng `doi:` đang chú thích ở cuối tệp này rồi commit lại.
+# Zenodo cấp HAI DOI cho mỗi kho: một DOI khái niệm (đại diện mọi phiên bản) và
+# một DOI riêng cho từng bản phát hành. Dòng `doi:` ở cuối tệp này khai DOI khái
+# niệm — đã điền, và KHÔNG phải đổi khi có bản phát hành mới.
 #
 # Citation metadata. GitHub renders "Cite this repository" from this file, and
 # Zenodo reads it when archiving each release.
+#
+# CHÚ Ý: từ nay `.zenodo.json` ở gốc kho ĐỨNG TRÊN tệp này khi Zenodo dựng bản
+# ghi cho một bản phát hành. Sửa siêu dữ liệu thì sửa CẢ HAI, nếu không thì
+# GitHub hiện một đằng (đọc tệp này) còn Zenodo ghi một nẻo (đọc tệp kia).
+#
+# Đặt thẻ phát hành là `v1.1`, KHÔNG phải `v.1.1`: `.zenodo.json` cố ý không
+# khai trường `version`, nên Zenodo lấy thẳng tên thẻ làm số phiên bản. Bản
+# đầu tiên đã lỡ mang tên `v.1.0` vì lẽ ấy.
+#
 cff-version: 1.2.0
 message: >-
   © 2026 Đỗ Thùy Hương. All rights reserved — see LICENSE. The work is
