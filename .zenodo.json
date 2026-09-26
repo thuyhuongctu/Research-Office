@@ -1,6 +1,6 @@
 {
   "upload_type": "software",
-  "title": "Văn phòng nghiên cứu · Research Office: an offline 3D research office with a mode-of-entry board for International Business teaching",
+  "title": "Research Office: an offline 3D research office with a mode-of-entry board for International Business teaching",
   "description": "A self-contained, bilingual (Vietnamese–English) 3D research office that runs entirely in the browser. The visitor walks through a single room and speaks with six characters: the author, and five fictional characters carried over from the knowledge-estate scene of the author's academic homepage. Every answer is written in advance by the author and stored in the page; nothing is generated at run time and the page makes no network request of any kind once loaded. A mode-of-entry board on the right-hand wall sets out seven entry modes, from exporting to foreign direct investment, each anchored to a standard International Business theory — the Uppsala model, transaction-cost economics, agency theory, the CAGE framework, the resource-based view, the born-global perspective, and Dunning's OLI paradigm. It is used as open teaching material for an undergraduate International Business course. Built from plain HTML, CSS and JavaScript with three.js; no build step, no server-side component, no analytics and no third-party request.",
   "creators": [
     {
