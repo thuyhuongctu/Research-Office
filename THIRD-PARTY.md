@@ -1,8 +1,9 @@
 # Kiểm kê thành phần bên thứ ba
 
-Kho này rất gọn về mặt bên thứ ba: **đúng hai mục**, cả hai đều là giấy phép
-cho phép dùng lại, cả hai đều dùng **nguyên bản, không sửa một ký tự**, và cả
-hai đều kèm toàn văn giấy phép ngay trong kho.
+Kho này gọn về mặt bên thứ ba: **ba mục**. Hai mục đầu là mã và bộ chữ, đều
+theo giấy phép cho phép dùng lại, đều dùng **nguyên bản, không sửa một ký tự**,
+và đều kèm toàn văn giấy phép ngay trong kho. Mục thứ ba là **một bản thu do
+máy sinh**, khác hẳn hai mục kia về bản chất nên ghi riêng ở mục 3.
 
 Đo trên tệp `index.html`, ngày 26/09/2026:
 
@@ -13,7 +14,9 @@ hai đều kèm toàn văn giấy phép ngay trong kho.
 | Mã phân tích lượt truy cập, quảng cáo, cookie bên thứ ba | **0** |
 
 Đo bằng Chromium: sau khi trang nạp xong, **không một yêu cầu nào ra khỏi
-máy khách**.
+máy khách**. Tệp nhạc ở mục 3 khai `preload="none"` nên nó **không** được tải
+lúc nạp trang — đã đo: 0 yêu cầu `.mp3`. Khách bấm nút phát thì trình duyệt
+mới tải tệp ấy, và tải **từ chính kho này**, không từ máy chủ của ai khác.
 
 ---
 
@@ -62,7 +65,33 @@ Cả năm tệp cộng lại 200 KB. Cũng tự chứa vì đúng lý do nêu �
 
 ---
 
-## 3. Những thứ **không** có trong kho này
+## 3. Bản thu «Returning to Shore» — do máy sinh
+
+`assets/audio/returning-to-shore.mp3` — 7,4 MB, 5:49. Bài nhạc đặt trên máy hát
+ở bàn nhân vật Minh, «người giữ bến nhạc»; khách bấm mới phát, trang không tự
+kêu.
+
+**Lời là của tác giả. Bản thu thì không.** Chính tệp mp3 tự khai điều ấy: thẻ
+ghi chú `COMM` trong phần ID3v2 của tệp ghi «made with suno» kèm mốc thời gian
+sinh. Tức bản ghi âm do dịch vụ Suno sinh ra, theo điều khoản của Suno, **không
+theo `LICENSE` của kho này**. Phần bảo lưu mọi quyền trong `LICENSE` áp cho lời
+bài hát và cho phần dựng cảnh, không áp cho bản thu.
+
+Ghi rõ ở đây vì đây là kho mang DOI, và vì hai thứ ấy khác chủ. Nếu sau này có
+đăng ký quyền tác giả cho phần nhạc thì thứ đăng ký được là **lời**, không phải
+bản thu.
+
+Trang cũng nói thẳng điều này với khách: hỏi Minh «Bài đang có trên máy là bài
+gì?» thì câu trả lời viết sẵn nêu đúng chuyện «made with suno». Không giấu
+trong tệp kiểm kê.
+
+Bản đầy đủ của bài — lời từng đoạn và ghi chú dàn dựng — nằm ở trang Âm nhạc
+của kho `thuyhuongctu/Je-mappelle-Huong`, và mục tương ứng ở `THIRD-PARTY.md`
+của kho ấy là mục **4c**.
+
+---
+
+## 4. Những thứ **không** có trong kho này
 
 Mục này ghi ra để hồ sơ sở hữu trí tuệ khỏi phải đi đo lại.
 

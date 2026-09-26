@@ -33,7 +33,9 @@ abstract: >-
   from the knowledge-estate scene of the author's academic homepage. Every
   answer is written in advance by the author and stored in the page; nothing is
   generated at run time and the page makes no network request of any kind once
-  loaded. A mode-of-entry board on the right-hand wall sets out seven entry
+  loaded, apart from the one audio file a visitor may choose to play, which is
+  served from the repository itself. A mode-of-entry board on the right-hand
+  wall sets out seven entry
   modes, from exporting to foreign direct investment, each anchored to a
   standard International Business theory — the Uppsala model, transaction-cost
   economics, agency theory, the CAGE framework, the resource-based view, the
