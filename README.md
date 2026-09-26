@@ -95,10 +95,9 @@ là bản trưng bày trong hệ sinh thái của trang.
 Công trình công bố để **đọc, tham khảo và trích dẫn**, không phát hành theo
 giấy phép mở.
 
-Thành phần bên thứ ba: **ba mục** — three.js r128 (MIT), hai bộ chữ Baloo 2 +
-Be Vietnam Pro (OFL 1.1) đều dùng nguyên bản, và **một bản thu do máy sinh**
-(«Returning to Shore», sinh bằng Suno; lời là của tác giả còn bản thu thì
-không). Kiểm kê đầy đủ ở [`THIRD-PARTY.md`](THIRD-PARTY.md). Kho này **không lấy gì** từ kho `BizOn` —
+Thành phần bên thứ ba: **đúng hai mục**, three.js r128 (MIT) và hai bộ chữ
+Baloo 2 + Be Vietnam Pro (OFL 1.1), cả hai dùng nguyên bản, kiểm kê đầy đủ ở
+[`THIRD-PARTY.md`](THIRD-PARTY.md). Kho này **không lấy gì** từ kho `BizOn` —
 kho ấy là tài sản đồng sở hữu.
 
 Trích dẫn theo [`CITATION.cff`](CITATION.cff). DOI khái niệm —
@@ -142,10 +141,8 @@ on a phone, the round buttons.
 
 **Copyright © 2026 Đỗ Thùy Hương. All rights reserved** — see [`LICENSE`](LICENSE).
 Published for reading and citation, not released under an open licence.
-Third-party components: three.js r128 (MIT), the Baloo 2 and Be Vietnam Pro
-typefaces (OFL 1.1), both unmodified, and one machine-generated recording
-(«Returning to Shore», made with Suno — the lyrics are the author's, the
-recording is not) — see [`THIRD-PARTY.md`](THIRD-PARTY.md).
+Third-party components: three.js r128 (MIT) and the Baloo 2 and Be Vietnam Pro
+typefaces (OFL 1.1), both unmodified — see [`THIRD-PARTY.md`](THIRD-PARTY.md).
 Please cite using [`CITATION.cff`](CITATION.cff), quoting the concept DOI
 **[10.5281/zenodo.22971293](https://doi.org/10.5281/zenodo.22971293)**, which
 represents every version and always resolves to the latest one.

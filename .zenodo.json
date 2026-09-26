@@ -24,5 +24,5 @@
     "Vietnam"
   ],
   "language": "eng",
-  "notes": "Copyright (C) 2026 Do Thuy Huong. All rights reserved — see LICENSE in the repository. The work is published for reading and citation, not for reuse; it is NOT released under an open-source or open-content licence. / Bản quyền © 2026 Đỗ Thùy Hương, bảo lưu mọi quyền — xem tệp LICENSE trong kho. Công trình được công bố để đọc và trích dẫn, không phát hành theo giấy phép mở.\n\nThird-party components: three.js r128 (MIT) and the Baloo 2 and Be Vietnam Pro typefaces (SIL OFL 1.1), all used unmodified; and one machine-generated sound recording, «Returning to Shore», produced with Suno and governed by Suno's terms rather than the repository licence — the lyrics of that song are the author's. See THIRD-PARTY.md."
+  "notes": "Copyright (C) 2026 Do Thuy Huong. All rights reserved — see LICENSE in the repository. The work is published for reading and citation, not for reuse; it is NOT released under an open-source or open-content licence. / Bản quyền © 2026 Đỗ Thùy Hương, bảo lưu mọi quyền — xem tệp LICENSE trong kho. Công trình được công bố để đọc và trích dẫn, không phát hành theo giấy phép mở.\n\nThird-party components, used unmodified under their own licences: three.js r128 (MIT) and the Baloo 2 and Be Vietnam Pro typefaces (SIL OFL 1.1). See THIRD-PARTY.md."
 }
