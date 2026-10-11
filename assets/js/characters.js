@@ -88,7 +88,7 @@ window.NGUOI = [
   {
     id: 'an', ten: 'An', vai: { vi: 'Người giữ Bảng tin', en: 'Noticeboard archivist' },
     anh: 'assets/img/npc-an.webp',
-    dung: 'assets/img/npc-an-dung.webp', dungTL: 0.3610, dungPhan: 0.857,
+    dung: 'assets/img/npc-an-dung.webp', dungTL: 0.3834,
     cho: [5.0, 3.2], ao: '#6b7f5a', quan: '#32392a', da: '#e9bf9b', toc: '#271a11',
     chao: { vi: 'An, mình giữ Bảng tin. Có gì mới mình đều ghi lại.',
             en: "An, I keep the noticeboard. Anything new gets written down here." },

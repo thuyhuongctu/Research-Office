@@ -24,6 +24,7 @@ khai phần nhạc. Chi tiết ở
 máy khách**. Tệp nhạc ở mục 3 khai `preload="none"` nên nó **không** được tải
 lúc nạp trang — đã đo: 0 yêu cầu `.mp3`. Khách bấm nút phát thì trình duyệt
 mới tải tệp ấy, và tải **từ chính kho này**, không từ máy chủ của ai khác.
+Phim giới thiệu cũng vậy: `preload="none"`, đã đo 0 yêu cầu `.mp4` lúc nạp trang.
 
 ---
 
@@ -128,5 +129,14 @@ Logo «Le Bureau de Hương» (`assets/img/logo/`, biểu tượng trong `icons/
 chọn; mã vẽ do công cụ AI viết theo yêu cầu của tác giả. Logo không chứa quốc
 kỳ hay biểu tượng nhà nước, và dùng bộ chữ Baloo 2 (OFL 1.1) ở mục 2.
 
-**Không có ảnh, nhạc hay video của bên thứ ba.** Tệp nhạc duy nhất ở bàn
-nhân vật Minh có lời của tác giả, nhạc dựng bằng công cụ (xem đầu tệp này); kho không chứa phim.
+**Phim giới thiệu 63 giây** (`assets/video/le-bureau-intro.mp4`, ảnh bìa
+`le-bureau-intro-poster.webp`) do tác giả dựng với cùng công cụ thiết kế ở trên,
+theo kịch bản lời dẫn của tác giả. Ảnh người dẫn là hình nhân vật Hương của tác
+giả; giọng đọc tiếng Anh và nhạc nền («Returning to Shore», lời của tác giả)
+do tác giả cung cấp. Phim khai `preload="none"` nên **không** được tải lúc nạp
+trang; chỉ khi khách bấm «Watch the intro» trình duyệt mới tải tệp, và tải từ
+chính kho này. Hai hình đứng của An và Tùng (`npc-an-dung.webp`,
+`npc-tung-dung.webp`) được thay bằng bản tách nền mới cùng đợt.
+
+**Không có ảnh, nhạc hay video của bên thứ ba.** Tệp nhạc ở bàn nhân vật Minh
+và nhạc nền của phim có lời của tác giả, nhạc dựng bằng công cụ (xem đầu tệp này).

@@ -17,6 +17,10 @@ and stored in the page. **Nothing is generated at run time.**
 
 ▶ **[Open the office](https://thuyhuongctu.github.io/Research-Office/)**
 
+**Intro film (63 s).** The start screen has a *Watch the intro* button that
+plays a one-minute tour of the office with English narration and captions
+([`assets/video/le-bureau-intro.mp4`](assets/video/le-bureau-intro.mp4)).
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22971293.svg)](https://doi.org/10.5281/zenodo.22971293)
 
 ![Le Bureau de Hương](assets/img/vanphong-bia.webp)
@@ -77,9 +81,9 @@ that is already open redraws correctly when the language changes.
 | Outgoing requests after load (measured in Chromium) | **0** |
 | Analytics, advertising or third-party cookies | **0** |
 
-The one audio file, on Minh's desk, is declared `preload="none"`, so it is
-**not** fetched when the page loads. It is downloaded only when a visitor
-presses play, and only from this repository.
+The audio file on Minh's desk and the intro film are both declared
+`preload="none"`, so neither is fetched when the page loads. Each is downloaded
+only when a visitor presses play, and only from this repository.
 
 There is no server and no build step: opening `index.html` is enough.
 
@@ -90,6 +94,7 @@ There is no server and no build step: opening `index.html` is enough.
 | `assets/js/characters.js` | the cast and their pre-written answers |
 | `assets/vendor/three-r128.min.js` | three.js, copied unmodified into the repository |
 | `assets/img/logo/` | the round logo and the wordmark |
+| `assets/video/` | the 63-second intro film and its poster |
 
 ## Running locally
 
