@@ -1,4 +1,4 @@
-Copyright © 2026 Đỗ Thùy Hương (Do Thuy Huong). All rights reserved.
+Copyright © 2026 Đỗ Thùy Hương (Do Thuy Huong; GitHub: thuyhuongctu). All rights reserved.
 Bản quyền © 2026 Đỗ Thùy Hương. Bảo lưu mọi quyền.
 
 ENGLISH
@@ -6,7 +6,8 @@ ENGLISH
 This repository and the web page it produces — the source code, the written
 content, the dialogue, the layout and lighting of the 3D scene, the
 International Business mode-of-entry board, and the character artwork in
-assets/img/ — are the copyrighted work of the author, and of the author alone.
+assets/img/ — are the copyrighted work of the author, and of the author alone,
+save for the jointly owned material described below.
 
 The material is published so that it can be read, consulted and cited. It is
 NOT released under an open-source or open-content licence.
@@ -33,9 +34,13 @@ sources and the extent of any modification, is in THIRD-PARTY.md:
     Licence 1.1; licence texts in assets/fonts/OFL-Baloo2.txt and
     assets/fonts/OFL-BeVietnamPro.txt
 
-Nothing in this repository is drawn from the repository thuyhuongctu/BizOn,
-which is jointly owned. No BizOn character artwork, character name or data
-table appears here. See THIRD-PARTY.md, section 3.
+Jointly owned material. The Entry Mode Simulator panel in index.html uses the
+illustrative country figures, the entry-mode scoring formula and the label
+"Lumina Insights" from BizOn AIBIS (repository thuyhuongctu/BizOn), which is
+jointly owned by Đỗ Thùy Hương and Phan Anh Tú. That material is used with the
+co-author's consent, is not covered by the sole-authorship statement above, and
+remains subject to the BizOn licence. No BizOn character artwork appears here.
+See THIRD-PARTY.md, section 3.
 
 Permission requests and enquiries: thuyhuongctu@gmail.com
 
@@ -44,7 +49,8 @@ TIẾNG VIỆT
 Kho mã này và trang web sinh ra từ nó — mã nguồn, nội dung chữ viết, lời thoại,
 bố cục và ánh sáng của cảnh 3D, bảng thang phương thức thâm nhập của phần Kinh
 doanh quốc tế, cùng tranh nhân vật trong assets/img/ — là tác phẩm thuộc bản
-quyền của tác giả, và chỉ của một mình tác giả.
+quyền của tác giả, và chỉ của một mình tác giả, trừ phần đồng sở hữu nêu
+dưới đây.
 
 Tài liệu được công bố để đọc, tham khảo và trích dẫn. Đây KHÔNG phải là tác
 phẩm phát hành theo giấy phép nguồn mở hay nội dung mở.
@@ -65,8 +71,12 @@ riêng của chúng và không thuộc phạm vi bảo lưu nêu trên: thư vi�
 (giấy phép MIT) và hai bộ chữ Baloo 2, Be Vietnam Pro (giấy phép SIL Open Font
 Licence 1.1). Bản kiểm kê đầy đủ ở tệp THIRD-PARTY.md.
 
-Kho này KHÔNG lấy gì từ kho thuyhuongctu/BizOn — kho ấy là tài sản đồng sở hữu.
-Không tranh nhân vật, không tên nhân vật, không bảng số liệu nào của BizOn xuất
-hiện ở đây. Xem THIRD-PARTY.md, mục 3.
+Phần đồng sở hữu. Bảng «Mô phỏng phương thức thâm nhập» trong index.html dùng
+số liệu minh hoạ theo quốc gia, công thức chấm điểm phương thức thâm nhập và
+nhãn «Lumina Insights» của BizOn AIBIS (kho thuyhuongctu/BizOn), là tài sản đồng
+sở hữu của Đỗ Thùy Hương và Phan Anh Tú. Phần này được dùng với sự đồng ý của
+đồng tác giả, không thuộc tuyên bố «của một mình tác giả» ở trên, và vẫn theo
+giấy phép của BizOn. Không có tranh nhân vật nào của BizOn ở đây. Xem
+THIRD-PARTY.md, mục 3.
 
 Liên hệ xin phép sử dụng: thuyhuongctu@gmail.com
