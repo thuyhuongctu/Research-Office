@@ -1,184 +1,142 @@
-# Le Bureau de Hương · Văn phòng nghiên cứu
+<p align="center">
+  <img src="assets/img/logo/logo-tron.webp" alt="Le Bureau de Hương logo" width="160">
+  &nbsp;&nbsp;
+  <img src="assets/img/huong-ai-chao.webp" alt="Je m'appelle Hương, the author's character, waving" height="160">
+</p>
 
-*Tên trước đây: Research Office. Tên kho, đường dẫn và DOI giữ nguyên.*
+# Le Bureau de Hương
 
-**Một căn phòng 3D chạy hẳn trong trình duyệt, không gọi mạng lần nào.** Khách
-đi vào, gặp sáu nhân vật, và đọc xem luận án đang nghiên cứu điều gì. Mọi câu
-trả lời đều do tác giả viết sẵn và nằm trong trang — **không có gì sinh ra lúc
-chạy**.
+*Formerly titled Research Office. The repository name, URL and DOI are unchanged.*
 
-▶ **[Mở văn phòng](https://thuyhuongctu.github.io/Research-Office/)**
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22971293.svg)](https://doi.org/10.5281/zenodo.22971293)
-
-<!-- ẢNH BÌA: assets/img/vanphong-bia.webp -->
-![Le Bureau de Hương](assets/img/vanphong-bia.webp)
-
----
-
-## Trong phòng có gì
-
-**Sáu nhân vật.** Je m'appelle Hương là người thật, và trả lời tám câu về luận án,
-khung dữ liệu, các học phần đang dạy. Năm người còn lại — Mai, Linh, Tùng, An,
-Minh — là **nhân vật hư cấu**, mượn từ cảnh «Trang viên tri thức» của trang học
-thuật cá nhân; mỗi bảng hội thoại đều ghi rõ điều ấy. Họ trả lời về khung dữ
-liệu WBES × WGI, danh mục công bố, các phần mềm học liệu, và chuyện trang này
-không gọi mạng.
-
-**Mô phỏng phương thức thâm nhập** (*Entry Mode Simulator*), ở góc phải phía
-trong. So sánh sáu phương thức cho thị trường Nhật Bản; khách kéo năm thanh ưu
-tiên (kiểm soát, tốc độ, học hỏi, giới hạn vốn, chấp nhận rủi ro) để chấm điểm
-lại, và đặt hai phương thức cạnh nhau. Số liệu là **minh hoạ**, lấy từ BizOn
-AIBIS với sự đồng ý của đồng tác giả — xem mục *Giấy phép* bên dưới.
-
-**Bảng cài đặt** (nút ⚙): bảng hội thoại dạng thẻ dưới hoặc cột bên; nhân vật
-dạng tranh vẽ hoặc đất sét; bật/tắt bản đồ nhỏ. Lựa chọn được nhớ lại.
-
-**Bảng thang phương thức thâm nhập**, trên tường phải, kèm quả địa cầu. Bảy bậc
-xếp theo **mức cam kết nguồn lực tăng dần**, mỗi bậc neo vào một lý thuyết:
-
-| Bậc | Đặc điểm | Lý thuyết neo |
-| --- | --- | --- |
-| Xuất khẩu | cam kết thấp, rút lui dễ | mô hình Uppsala |
-| Cấp phép | cho dùng một quyền | chi phí giao dịch |
-| Nhượng quyền | nhân rộng bằng vốn đối tác | lý thuyết đại diện |
-| Liên doanh | chia rủi ro, mượn hiểu biết bản địa | khung CAGE |
-| Liên minh chiến lược | trao đổi nguồn lực bổ sung | quan điểm dựa trên nguồn lực |
-| Nền tảng số | sinh ra đã toàn cầu | born-global |
-| Đầu tư trực tiếp | kiểm soát tối đa, thoái lui đắt | mô hình OLI (Dunning) |
-
-Đây là **học liệu mở** cho học phần Kinh doanh quốc tế bậc đại học.
-
-## Hai thứ tiếng
-
-Việt và Anh, đổi bằng nút ở góc. Mặc định là **tiếng Anh** cho mọi khách; lựa
-chọn của khách được nhớ lại và luôn thắng. Chữ đọc `lang` **ngay lúc vẽ**, nên
-đổi ngôn ngữ giữa chừng thì bảng đang mở vẽ lại đúng.
-
-## Không gọi mạng — đo, không phải hứa
-
-| | |
-| --- | --- |
-| `<script src>` / `<link href>` trỏ ra ngoài kho | **0** |
-| Lời gọi mạng lúc chạy | **0** |
-| Yêu cầu ra ngoài sau khi nạp xong (đo bằng Chromium) | **0** |
-| Mã phân tích lượt truy cập, quảng cáo, cookie bên thứ ba | **0** |
-
-Một tệp nhạc đặt ở bàn nhân vật Minh khai `preload="none"` nên **không** tải
-lúc nạp trang; khách bấm phát thì mới tải, và tải từ chính kho này.
-
-Không có máy chủ, không có bước dựng (build). Mở tệp `index.html` là chạy.
-
-| Tệp | Vai trò |
-| --- | --- |
-| `index.html` | giao diện, giao diện người dùng, vòng lặp đi lại, các bảng |
-| `assets/js/office-builder.js` | dựng căn phòng 3D và dáng người đất sét |
-| `assets/js/characters.js` | dàn nhân vật và câu trả lời viết sẵn |
-| `assets/vendor/three-r128.min.js` | three.js, chép nguyên bản trong kho |
-
-## Chạy thử tại chỗ
-
-```bash
-python3 -m http.server 8899     # rồi mở http://127.0.0.1:8899/
-```
-
-## Cách đi lại
-
-| | |
-| --- | --- |
-| Đi | phím mũi tên hoặc `W A S D`; trên điện thoại thì dùng nút tròn |
-| Nói chuyện | lại gần nhân vật rồi nhấn `E` |
-| Đóng bảng | `Esc` |
-
----
-
-## Nguồn gốc
-
-Tác phẩm ra đời trong kho **[`thuyhuongctu/Je-mappelle-Huong`](https://github.com/thuyhuongctu/Je-mappelle-Huong)**
-(trang học thuật cá nhân của tác giả), qua ba bản gộp trong ngày **26/09/2026**:
-
-| Commit | PR | Nội dung |
-| --- | --- | --- |
-| `c3172a4` | #58 | Dựng trang từ đầu, thay cho một bản nháp do máy sinh |
-| `ae3ad30` | #59 | Thêm góc Kinh doanh quốc tế và bảng thang phương thức |
-| `33d7d49` | #60 | Thay năm nhân vật bằng năm người của trang viên |
-
-Kho này là **bản chính thức để trích dẫn**; bản trên trang cá nhân
-([`/vanphong.html`](https://thuyhuongctu.github.io/Je-mappelle-Huong/vanphong.html))
-là bản trưng bày trong hệ sinh thái của trang.
-
-## Giấy phép và trích dẫn
-
-**Tác giả: thuyhuongctu (Đỗ Thùy Hương).**
-**Bản quyền © 2026 Đỗ Thùy Hương. Bảo lưu mọi quyền** — xem [`LICENSE`](LICENSE).
-Công trình công bố để **đọc, tham khảo và trích dẫn**, không phát hành theo
-giấy phép mở.
-
-Thành phần bên thứ ba: **đúng hai mục**, three.js r128 (MIT) và hai bộ chữ
-Baloo 2 + Be Vietnam Pro (OFL 1.1), cả hai dùng nguyên bản, kiểm kê đầy đủ ở
-[`THIRD-PARTY.md`](THIRD-PARTY.md).
-
-**Phần dùng từ kho `BizOn` (đồng sở hữu).** Bảng *Mô phỏng phương thức thâm
-nhập* dùng bảng số liệu minh hoạ, công thức chấm điểm và nhãn «Lumina Insights»
-của BizOn AIBIS — kho đồng sở hữu của Đỗ Thùy Hương và Phan Anh Tú — với sự đồng
-ý của đồng tác giả. Phần ấy **không** thuộc phạm vi «của một mình tác giả»; xem
-`THIRD-PARTY.md` mục 3.
-
-Trích dẫn theo [`CITATION.cff`](CITATION.cff). DOI khái niệm —
-**[10.5281/zenodo.22971293](https://doi.org/10.5281/zenodo.22971293)** — đại diện
-mọi phiên bản và luôn dẫn tới bản mới nhất; đấy mới là DOI để trích dẫn. Riêng
-bản `v1.0` có DOI [10.5281/zenodo.22971294](https://doi.org/10.5281/zenodo.22971294).
-
----
-
-# Le Bureau de Hương (English)
-
-*Formerly titled Research Office; the repository name, URL and DOI are unchanged.*
-
-**A small 3D research office that runs entirely in the browser and makes no
-network request at all.** Walk in, meet six characters, and read what the
-dissertation actually studies. Every answer is written in advance by the author
-and stored in the page — **nothing is generated at run time**.
+**A small 3D office that runs entirely in the browser and makes no network
+request at all.** Visitors walk in, meet six characters, and read what the
+author's dissertation studies. Every answer is written in advance by the author
+and stored in the page. **Nothing is generated at run time.**
 
 ▶ **[Open the office](https://thuyhuongctu.github.io/Research-Office/)**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22971293.svg)](https://doi.org/10.5281/zenodo.22971293)
 
-**Six characters.** Je m'appelle Hương is real, and answers eight questions about
-the dissertation, the data frame and the courses she teaches. The other five —
-Mai, Linh, Tùng, An, Minh — are **fictional characters** carried over from the
-knowledge-estate scene of the author's academic homepage, and every dialogue
-panel says so.
+![Le Bureau de Hương](assets/img/vanphong-bia.webp)
 
-**An Entry Mode Simulator** compares six entry modes for the Japanese market
-and lets the visitor re-score them with five priority sliders; its illustrative
-figures come from BizOn AIBIS, used with the co-author's consent. A **settings
-panel** switches the dialogue layout, painted or clay characters, and the
-minimap.
+---
 
-**A mode-of-entry board** on the right-hand wall sets out seven entry modes in
-order of rising resource commitment — export, licensing, franchising, joint
-venture, strategic alliance, digital platform, greenfield FDI — each anchored to
-a standard International Business theory: the Uppsala model, transaction-cost
-economics, agency theory, the CAGE framework, the resource-based view, the
-born-global perspective, and Dunning's OLI paradigm. It is used as **open
-teaching material** for an undergraduate International Business course.
+## What is in the room
 
-**Bilingual** Vietnamese–English, English by default, the visitor's choice
-remembered. **Zero network requests**, measured in Chromium, not promised. No
-server, no build step, no analytics: opening `index.html` is enough.
+**Six characters.** Je m'appelle Hương is the author herself and answers eight
+questions about the dissertation, the data frame and the courses she teaches.
+The other five (Mai, Linh, Tùng, An and Minh) are **fictional characters**
+carried over from the knowledge-estate scene of the author's academic homepage,
+and every dialogue panel says so. They answer questions about the WBES × WGI data
+frame, the publication list, the teaching software, and why the page makes no
+network calls.
 
-Controls: arrow keys or `W A S D` to walk, `E` to talk, `Esc` to close a panel;
-on a phone, the round buttons.
+**Entry Mode Simulator**, in the far right-hand corner. It compares six entry
+modes for the Japanese market. Visitors drag five priority sliders (control,
+speed, learning, capital limit, risk tolerance) to re-score the modes, and can
+place any two modes side by side. The figures are **illustrative** and come from
+BizOn AIBIS, used with the co-author's consent (see *Licence and citation*
+below).
+
+**Settings panel** (the ⚙ button). It switches the dialogue panel between a
+bottom card and a side column, shows the characters as paintings or clay
+figures, and turns the minimap on or off. Choices are remembered.
+
+**Mode-of-entry board**, on the right-hand wall beside a globe. Seven modes are
+ordered by **rising resource commitment**, each anchored to a standard
+International Business theory:
+
+| Mode | Characteristic | Anchoring theory |
+| --- | --- | --- |
+| Export | low commitment, easy exit | Uppsala model |
+| Licensing | grants the use of a right | transaction-cost economics |
+| Franchising | scales through partners' capital | agency theory |
+| Joint venture | shares risk, borrows local knowledge | CAGE framework |
+| Strategic alliance | exchanges complementary resources | resource-based view |
+| Digital platform | global from day one | born-global perspective |
+| Greenfield FDI | maximum control, costly exit | OLI paradigm (Dunning) |
+
+The office is used as **open teaching material** for an undergraduate
+International Business course.
+
+## Two languages
+
+Vietnamese and English, switched with the button in the corner. English is the
+default for every visitor; a visitor's own choice is remembered and always
+takes precedence. Text reads the current language **at draw time**, so a panel
+that is already open redraws correctly when the language changes.
+
+## No network calls — measured, not promised
+
+| | |
+| --- | --- |
+| `<script src>` / `<link href>` pointing outside the repository | **0** |
+| Network calls at run time | **0** |
+| Outgoing requests after load (measured in Chromium) | **0** |
+| Analytics, advertising or third-party cookies | **0** |
+
+The one audio file, on Minh's desk, is declared `preload="none"`, so it is
+**not** fetched when the page loads. It is downloaded only when a visitor
+presses play, and only from this repository.
+
+There is no server and no build step: opening `index.html` is enough.
+
+| File | Role |
+| --- | --- |
+| `index.html` | page layout, user interface, walking loop and panels |
+| `assets/js/office-builder.js` | builds the 3D room and the clay figures |
+| `assets/js/characters.js` | the cast and their pre-written answers |
+| `assets/vendor/three-r128.min.js` | three.js, copied unmodified into the repository |
+| `assets/img/logo/` | the round logo and the wordmark |
+
+## Running locally
+
+```bash
+python3 -m http.server 8899     # then open http://127.0.0.1:8899/
+```
+
+## Controls
+
+| | |
+| --- | --- |
+| Walk | arrow keys or `W A S D`; on a phone, the round joystick |
+| Talk | walk up to a character and press `E` |
+| Close a panel | `Esc` |
+
+---
+
+## Origin
+
+The work was first built in **[`thuyhuongctu/Je-mappelle-Huong`](https://github.com/thuyhuongctu/Je-mappelle-Huong)**,
+the author's academic homepage, through three merges on **26 September 2026**:
+
+| Commit | PR | Change |
+| --- | --- | --- |
+| `c3172a4` | #58 | Page rebuilt from scratch, replacing a machine-generated draft |
+| `ae3ad30` | #59 | International Business corner and the mode-of-entry board added |
+| `33d7d49` | #60 | Five characters replaced with the five people of the estate |
+
+This repository is the **canonical version for citation**. The copy on the
+homepage ([`/vanphong.html`](https://thuyhuongctu.github.io/Je-mappelle-Huong/vanphong.html))
+is the display version within the homepage's own ecosystem.
+
+## Licence and citation
 
 **Author: thuyhuongctu (Đỗ Thùy Hương).**
 **Copyright © 2026 Đỗ Thùy Hương. All rights reserved** — see [`LICENSE`](LICENSE).
-Published for reading and citation, not released under an open licence.
+The work is published for **reading, consultation and citation**. It is not
+released under an open licence.
+
 Third-party components: three.js r128 (MIT) and the Baloo 2 and Be Vietnam Pro
-typefaces (OFL 1.1) — see [`THIRD-PARTY.md`](THIRD-PARTY.md). The simulator's
-illustrative figures, scoring formula and the "Lumina Insights" label come from
-the jointly owned BizOn AIBIS (Đỗ Thùy Hương and Phan Anh Tú) and are used with
-the co-author's consent; they are excluded from the sole-authorship claim.
-Please cite using [`CITATION.cff`](CITATION.cff), quoting the concept DOI
-**[10.5281/zenodo.22971293](https://doi.org/10.5281/zenodo.22971293)**, which
-represents every version and always resolves to the latest one.
+typefaces (SIL OFL 1.1), inventoried in full in [`THIRD-PARTY.md`](THIRD-PARTY.md).
+
+**Material from `BizOn` (jointly owned).** The Entry Mode Simulator uses the
+illustrative figures, the scoring formula and the "Lumina Insights" label of
+BizOn AIBIS, a repository jointly owned by Đỗ Thùy Hương and Phan Anh Tú, with
+the co-author's consent. That material is **excluded** from the sole-authorship
+claim; see `THIRD-PARTY.md`, section 3.
+
+Please cite using [`CITATION.cff`](CITATION.cff). The concept DOI,
+**[10.5281/zenodo.22971293](https://doi.org/10.5281/zenodo.22971293)**, represents
+every version and always resolves to the latest one; that is the DOI to cite.
+Release `v1.0` alone has the DOI [10.5281/zenodo.22971294](https://doi.org/10.5281/zenodo.22971294).
