@@ -46,6 +46,7 @@ abstract: >-
 authors:
   - family-names: "Do"
     given-names: "Thuy Huong"
+    alias: "thuyhuongctu"
     orcid: "https://orcid.org/0000-0002-7711-2487"
     email: "thuyhuongctu@gmail.com"
     affiliation: "Can Tho University"

@@ -70,14 +70,32 @@ Cả năm tệp cộng lại 200 KB. Cũng tự chứa vì đúng lý do nêu �
 
 ---
 
-## 3. Những thứ **không** có trong kho này
+## 3. Phần lấy từ BizOn, và những thứ **không** có trong kho này
 
 Mục này ghi ra để hồ sơ sở hữu trí tuệ khỏi phải đi đo lại.
 
-**Không có gì lấy từ kho `thuyhuongctu/BizOn`.** Kho ấy là tài sản **đồng sở
+### 3a. Phần dùng từ BizOn AIBIS (đồng sở hữu) — thêm ở bản nâng cấp giao diện
+
+Bảng **Mô phỏng phương thức thâm nhập** (`#aibis` trong `index.html`, biến
+`AB` và hàm `abDiem`) dùng ba thứ của BizOn AIBIS, chép từ
+`js/aibis/entry-mode-preview-data.js` và `entry-mode-preview.js`:
+
+1. bảng số liệu **minh hoạ** cho thị trường Nhật Bản và sáu phương thức;
+2. **công thức chấm điểm** phương thức theo năm trọng số ưu tiên;
+3. nhãn **«Lumina Insights»** (Lumina là nhân vật của BizOn).
+
+Dùng **với sự đồng ý của đồng tác giả** Phan Anh Tú; trang ghi rõ điều ấy ở
+chân bảng. Ba thứ này **không** thuộc phạm vi «của một mình tác giả» trong
+`LICENSE`, và phải **loại ra** khi khai tác phẩm một tác giả trong hồ sơ đăng ký
+quyền tác giả (hoặc khai đồng tác giả cho riêng phần ấy). Nên lưu văn bản đồng
+ý của đồng tác giả cùng hồ sơ.
+
+### 3b. Những thứ **không** lấy từ BizOn
+
+Kho `thuyhuongctu/BizOn` là tài sản **đồng sở
 hữu** — `LICENSE` của nó ghi «Bản quyền © 2026 Đỗ Thùy Hương *và Phan Anh Tú*»
 và liệt kê «Tạo hình các nhân vật: Lumina…, Đội Demo 5 thành viên» trong phạm
-vi bảo hộ. Ba thứ đã cân nhắc rồi **cố ý không lấy**:
+vi bảo hộ. Ngoài mục 3a, ba thứ đã cân nhắc rồi **cố ý không lấy**:
 
 1. **Tranh sáu nhân vật đã cắt nền.** Năm nhân vật ở đây là Mai, Linh, Tùng,
    An, Minh — nhân vật của cảnh «Trang viên tri thức» trong kho
@@ -90,11 +108,18 @@ vi bảo hộ. Ba thứ đã cân nhắc rồi **cố ý không lấy**:
    born-global, mô hình OLI. Cách trình bày là của tác giả; bản thân các lý
    thuyết thì không ai độc quyền.
 
-**Không có mã do trình sinh mã của một hãng AI để lại.** Tác phẩm ban đầu có
-một bản nháp do máy sinh; bản ấy **đã bỏ hẳn, dựng lại từ đầu**, và ba thứ
+**Công cụ AI là phương tiện thực hiện, không phải tác giả.** Tác phẩm ban đầu
+có một bản nháp do máy sinh; bản ấy **đã bỏ hẳn, dựng lại từ đầu**, và ba thứ
 trong bản nháp bị loại bỏ chứ không phải sửa cho gọn: một lời gọi API của hãng
 AI ngay trong trình duyệt khách, three.js nạp từ cdnjs, và tên của những người
 có thật. Lịch sử đầy đủ ở kho gốc, `THIRD-PARTY.md` mục 4b.
 
-**Không có ảnh, nhạc hay video của bên thứ ba.** Kho này không chứa tệp âm
-thanh hay phim nào.
+Bản nâng cấp giao diện (tách `assets/js/office-builder.js`,
+`assets/js/characters.js`, thêm bảng cài đặt và bảng mô phỏng) được tác giả
+dựng với một công cụ thiết kế có hỗ trợ AI — cũng như tệp nhạc, đó là
+**phương tiện thực hiện** theo chỉ đạo, lựa chọn và biên tập của tác giả.
+Huy hiệu quảng bá mà công cụ ấy chèn vào bản xuất đã được **gỡ bỏ**; trang
+không còn liên kết hay mã nào trỏ tới nhà cung cấp công cụ.
+
+**Không có ảnh, nhạc hay video của bên thứ ba.** Tệp nhạc duy nhất ở bàn
+nhân vật Minh là tác phẩm của tác giả (xem đầu tệp này); kho không chứa phim.
