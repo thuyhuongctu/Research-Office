@@ -123,5 +123,10 @@ dựng với một công cụ thiết kế có hỗ trợ AI — cũng như tệ
 Huy hiệu quảng bá mà công cụ ấy chèn vào bản xuất đã được **gỡ bỏ**; trang
 không còn liên kết hay mã nào trỏ tới nhà cung cấp công cụ.
 
+Logo «Le Bureau de Hương» (`assets/img/logo/`, biểu tượng trong `icons/` và
+`favicon.ico`) dựng bằng mã vẽ SVG theo tên gọi, bảng màu và bố cục tác giả
+chọn; mã vẽ do công cụ AI viết theo yêu cầu của tác giả. Logo không chứa quốc
+kỳ hay biểu tượng nhà nước, và dùng bộ chữ Baloo 2 (OFL 1.1) ở mục 2.
+
 **Không có ảnh, nhạc hay video của bên thứ ba.** Tệp nhạc duy nhất ở bàn
 nhân vật Minh có lời của tác giả, nhạc dựng bằng công cụ (xem đầu tệp này); kho không chứa phim.
