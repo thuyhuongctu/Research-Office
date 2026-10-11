@@ -200,6 +200,12 @@ body.mo-thoai #can,body.mo-thoai #goiy-tay{display:none}
 #vao li{display:flex;gap:10px;align-items:center;font-size:.8rem}
 #vao kbd{font:600 .7rem var(--sans);border:1px solid var(--line);border-bottom-width:2px;border-radius:6px;padding:3px 7px;background:var(--paper);min-width:74px;text-align:center}
 #batdau{width:100%;height:48px;border:0;border-radius:12px;background:var(--clay);color:#fff;font:700 1rem var(--hien);cursor:pointer}
+#xemphim{width:100%;height:40px;margin-top:8px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);font:600 .82rem var(--sans);cursor:pointer}
+#intro{position:fixed;inset:0;z-index:80;display:flex;align-items:center;justify-content:center;padding:16px;background:rgba(23,19,15,.82)}
+#intro[hidden]{display:none}
+#intro .khung{position:relative;width:min(960px,100%)}
+#intro video{display:block;width:100%;aspect-ratio:16/9;border-radius:14px;background:#000}
+#dongintro{position:absolute;top:-14px;right:-6px;width:36px;height:36px;border:0;border-radius:50%;background:var(--surface);color:var(--ink);font:700 1.1rem var(--sans);cursor:pointer}
 #vao .ng{display:flex;gap:6px;margin-bottom:14px}
 #vao .ng button{border:1px solid var(--line);background:var(--surface);border-radius:8px;padding:5px 10px;font:600 .72rem var(--sans);color:var(--muted);cursor:pointer}
 #vao .ng button[aria-pressed=true]{background:var(--ink);color:var(--surface);border-color:var(--ink)}
@@ -342,6 +348,16 @@ body.mo-thoai #can,body.mo-thoai #goiy-tay{display:none}
       <li class="chi-may"><kbd>Esc</kbd><span><span class="l-vi">đóng bảng</span><span class="l-en">close a panel</span></span></li>
     </ul>
     <button id="batdau" type="button"><span class="l-vi">Bước vào</span><span class="l-en">Step inside</span></button>
+    <button id="xemphim" type="button">▶ <span class="l-vi">Xem phim giới thiệu (63 giây, lời tiếng Anh)</span><span class="l-en">Watch the intro (63 s)</span></button>
+  </div>
+</div>
+
+<div id="intro" role="dialog" aria-modal="true" aria-label="Le Bureau de Hương, intro film" hidden>
+  <div class="khung">
+    <video id="introvid" controls playsinline preload="none" poster="assets/video/le-bureau-intro-poster.webp">
+      <source src="assets/video/le-bureau-intro.mp4" type="video/mp4">
+    </video>
+    <button id="dongintro" type="button" aria-label="Close">×</button>
   </div>
 </div>
 
@@ -620,9 +636,15 @@ function vuong(x, z) {
   for (var j = 0; j < DAN.length; j++) { var p = DAN[j].position; if (Math.hypot(p.x - x, p.z - z) < 0.6) return true; }
   return false;
 }
+function moIntro() { $('intro').hidden = false; var v = $('introvid'); v.play().catch(function () {}); $('dongintro').focus(); }
+function dongIntro() { var v = $('introvid'); v.pause(); $('intro').hidden = true; $('xemphim').focus(); }
+$('xemphim').onclick = moIntro;
+$('dongintro').onclick = dongIntro;
+$('intro').onclick = function (e) { if (e.target === this) dongIntro(); };
 function coPanel() { return !!dangMo || $('thang').classList.contains('mo') || $('aibis').classList.contains('mo') || !dangChoi; }
 addEventListener('keydown', function (e) {
   var k = e.key.toLowerCase();
+  if (!$('intro').hidden) { if (k === 'escape') dongIntro(); return; }
   if (e.target.tagName === 'BUTTON' && (k === ' ' || k === 'enter')) return;
   if (!dangChoi && k === 'enter') { batDau(); return; }
   if ($('thang').classList.contains('mo')) {
