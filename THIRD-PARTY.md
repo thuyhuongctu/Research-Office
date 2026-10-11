@@ -4,9 +4,11 @@ Kho này rất gọn về mặt bên thứ ba: **đúng hai mục**, cả hai đ
 cho phép dùng lại, cả hai đều dùng **nguyên bản, không sửa một ký tự**, và cả
 hai đều kèm toàn văn giấy phép ngay trong kho.
 
-Tệp nhạc ở bàn nhân vật Minh không nằm trong số ấy: nó là tác phẩm của chính
-tác giả, dựng bằng công cụ sinh nhạc — tức một **phương tiện thực hiện**, không
-phải thành phần của bên thứ ba. Chi tiết ở
+Tệp nhạc ở bàn nhân vật Minh không nằm trong số ấy. **Lời** bài hát là tác
+phẩm của chính tác giả; **phần nhạc và bản thu** dựng bằng công cụ sinh nhạc —
+tức một **phương tiện thực hiện**, không phải thành phần của bên thứ ba. Khi
+đăng ký quyền tác giả, tác giả **chỉ khai phần lời** (tác phẩm viết), không
+khai phần nhạc. Chi tiết ở
 `ho-so-quyen-tac-gia/04-cong-cu-ho-tro.md` mục A.3b của kho
 `thuyhuongctu/Je-mappelle-Huong`.
 
@@ -122,4 +124,4 @@ Huy hiệu quảng bá mà công cụ ấy chèn vào bản xuất đã được
 không còn liên kết hay mã nào trỏ tới nhà cung cấp công cụ.
 
 **Không có ảnh, nhạc hay video của bên thứ ba.** Tệp nhạc duy nhất ở bàn
-nhân vật Minh là tác phẩm của tác giả (xem đầu tệp này); kho không chứa phim.
+nhân vật Minh có lời của tác giả, nhạc dựng bằng công cụ (xem đầu tệp này); kho không chứa phim.

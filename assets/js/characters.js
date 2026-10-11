@@ -116,8 +116,8 @@ window.NGUOI = [
     },
     hoi: [
       { q: { vi: 'Bài đang có trên máy là bài gì?', en: 'What is the track on the player?' },
-        a: { vi: '«Returning to Shore» - trở về bờ, một đĩa đơn ngoài album, lời và nhạc của chị Hương, thu tháng 9/2026. Phần lời và ghi chú đầy đủ nằm ở trang Âm nhạc.',
-             en: '«Returning to Shore», a single outside the album - words and music by Hương, recorded in September 2026. The full lyrics and notes are on the music page.' } },
+        a: { vi: '«Returning to Shore» - trở về bờ, một đĩa đơn ngoài album, lời của chị Hương, phần nhạc dựng bằng công cụ sinh nhạc, thu tháng 9/2026. Phần lời và ghi chú đầy đủ nằm ở trang Âm nhạc.',
+             en: '«Returning to Shore», a single outside the album - lyrics by Hương, music produced with a music-generation tool, recorded in September 2026. The full lyrics and notes are on the music page.' } },
       { q: { vi: 'Bến nhạc có gì?', en: 'What is at the music dock?' },
         a: { vi: 'Trang Âm nhạc: 28 bản thu, sáu bài chính cùng một bản bonus, có cả phần lời và ghi chú về từng bài.',
              en: 'The music page: 28 recordings, six main tracks plus a bonus, with lyrics and notes for each.' } }
