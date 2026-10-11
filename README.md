@@ -1,4 +1,6 @@
-# Văn phòng nghiên cứu · Research Office
+# Le Bureau de Hương · Văn phòng nghiên cứu
+
+*Tên trước đây: Research Office. Tên kho, đường dẫn và DOI giữ nguyên.*
 
 **Một căn phòng 3D chạy hẳn trong trình duyệt, không gọi mạng lần nào.** Khách
 đi vào, gặp sáu nhân vật, và đọc xem luận án đang nghiên cứu điều gì. Mọi câu
@@ -10,7 +12,7 @@ chạy**.
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22971293.svg)](https://doi.org/10.5281/zenodo.22971293)
 
 <!-- ẢNH BÌA: assets/img/vanphong-bia.webp -->
-![Văn phòng nghiên cứu](assets/img/vanphong-bia.webp)
+![Le Bureau de Hương](assets/img/vanphong-bia.webp)
 
 ---
 
@@ -129,7 +131,9 @@ bản `v1.0` có DOI [10.5281/zenodo.22971294](https://doi.org/10.5281/zenodo.22
 
 ---
 
-# Research Office (English)
+# Le Bureau de Hương (English)
+
+*Formerly titled Research Office; the repository name, URL and DOI are unchanged.*
 
 **A small 3D research office that runs entirely in the browser and makes no
 network request at all.** Walk in, meet six characters, and read what the
