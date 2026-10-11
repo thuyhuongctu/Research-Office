@@ -25,24 +25,23 @@ message: >-
   quyền — xem tệp LICENSE. Công trình được công bố để đọc và trích dẫn,
   không phát hành theo giấy phép mở. Xin trích dẫn như bên dưới.
 type: software
-title: "Le Bureau de Hương (Research Office): an offline 3D research office with a mode-of-entry board for International Business teaching"
+title: "Le Bureau de Hương: an offline 3D office with a mode-of-entry board for International Business teaching"
 abstract: >-
-  A self-contained, bilingual (Vietnamese–English) 3D research office that runs
-  entirely in the browser. The visitor walks through a single room and speaks
-  with six characters: the author, and five fictional characters carried over
-  from the knowledge-estate scene of the author's academic homepage. Every
-  answer is written in advance by the author and stored in the page; nothing is
-  generated at run time and the page makes no network request of any kind once
-  loaded, apart from the one audio file a visitor may choose to play, which is
-  served from the repository itself. A mode-of-entry board on the right-hand
-  wall sets out seven entry
-  modes, from exporting to foreign direct investment, each anchored to a
-  standard International Business theory — the Uppsala model, transaction-cost
-  economics, agency theory, the CAGE framework, the resource-based view, the
-  born-global perspective, and Dunning's OLI paradigm. It is used as open
-  teaching material for an undergraduate International Business course. Built
-  from plain HTML, CSS and JavaScript with three.js; no build step, no
-  server-side component, no analytics and no third-party request.
+  A small 3D office that runs entirely in the browser and makes no network
+  request at all. Visitors walk in, meet six characters, and read what the
+  author's dissertation studies. Every answer is written in advance by the
+  author and stored in the page; nothing is generated at run time. Je
+  m'appelle Hương is the author herself; the other five characters are
+  fictional. An Entry Mode Simulator re-scores six entry modes for the
+  Japanese market with five priority sliders, using illustrative figures from
+  BizOn AIBIS with the co-author's consent. A mode-of-entry board orders seven
+  modes by rising resource commitment, each anchored to a standard
+  International Business theory (Uppsala model, transaction-cost economics,
+  agency theory, CAGE framework, resource-based view, born-global
+  perspective, Dunning's OLI paradigm). Bilingual Vietnamese-English, with no
+  server, no build step, no analytics and no third-party request. Used as
+  open teaching material for an undergraduate International Business course.
+  Formerly titled Research Office.
 authors:
   - family-names: "Do"
     given-names: "Thuy Huong"
@@ -50,8 +49,8 @@ authors:
     orcid: "https://orcid.org/0000-0002-7711-2487"
     email: "thuyhuongctu@gmail.com"
     affiliation: "Can Tho University"
-version: "1.0"
-date-released: 2026-09-26
+version: "1.3"
+date-released: 2026-10-11
 license-url: "https://github.com/thuyhuongctu/Research-Office/blob/main/LICENSE"
 repository-code: "https://github.com/thuyhuongctu/Research-Office"
 url: "https://thuyhuongctu.github.io/Research-Office/"

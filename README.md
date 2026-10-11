@@ -6,6 +6,8 @@
 
 # Le Bureau de Hương
 
+**An offline 3D office with a mode-of-entry board for International Business teaching.**
+
 *Formerly titled Research Office. The repository name, URL and DOI are unchanged.*
 
 **A small 3D office that runs entirely in the browser and makes no network
