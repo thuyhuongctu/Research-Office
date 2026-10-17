@@ -140,3 +140,12 @@ chính kho này. Hai hình đứng của An và Tùng (`npc-an-dung.webp`,
 
 **Không có ảnh, nhạc hay video của bên thứ ba.** Tệp nhạc ở bàn nhân vật Minh
 và nhạc nền của phim có lời của tác giả, nhạc dựng bằng công cụ (xem đầu tệp này).
+
+---
+
+## Ngoài kiểm kê: công cụ làm việc trong `.claude/skills/`
+
+Thư mục `.claude/skills/` chứa 15 skill của K-Dense (MIT) cho trợ lý AI dùng
+khi làm bài nghiên cứu. Chúng **không** thuộc văn phòng nghiên cứu nên không
+tính vào hai mục kiểm kê ở trên: không được trang tải, bị loại khỏi trang
+Pages và khỏi bản lưu Zenodo. Chi tiết ở `.claude/skills/README.md`.

@@ -25,6 +25,8 @@ jobs:
       - uses: actions/configure-pages@v5
         with:
           enablement: true
+      # Skill cho trợ lý AI là công cụ làm việc, không phải nội dung trang.
+      - run: rm -rf .claude
       - uses: actions/upload-pages-artifact@v3
         with:
           path: .
