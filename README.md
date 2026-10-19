@@ -130,7 +130,7 @@ the author's academic homepage, through three merges on **26 September 2026**:
 | `33d7d49` | #60 | Five characters replaced with the five people of the estate |
 
 This repository is the **canonical version for citation**. The copy on the
-homepage ([`/vanphong.html`](https://thuyhuongctu.github.io/Je-mappelle-Huong/vanphong.html))
+homepage ([`/vanphong.html`](https://jemappellehuong.com/vanphong.html))
 is the display version within the homepage's own ecosystem.
 
 ## Licence and citation
