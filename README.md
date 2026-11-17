@@ -15,7 +15,7 @@ request at all.** Visitors walk in, meet six characters, and read what the
 author's dissertation studies. Every answer is written in advance by the author
 and stored in the page. **Nothing is generated at run time.**
 
-▶ **[Open the office](https://thuyhuongctu.github.io/Research-Office/)**
+▶ **[Open the office](https://bureau.jemappellehuong.com/)**
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22971293.svg)](https://doi.org/10.5281/zenodo.22971293)
 
@@ -23,9 +23,9 @@ and stored in the page. **Nothing is generated at run time.**
 
 ## Intro film
 
-[![Intro film, 20-second preview. Click to watch the full 63-second film with sound.](assets/video/le-bureau-intro-teaser.webp)](https://thuyhuongctu.github.io/Research-Office/assets/video/le-bureau-intro.mp4)
+[![Intro film, 20-second preview. Click to watch the full 63-second film with sound.](assets/video/le-bureau-intro-teaser.webp)](https://bureau.jemappellehuong.com/assets/video/le-bureau-intro.mp4)
 
-▶ **[Watch the full film (63 s, with narration and music)](https://thuyhuongctu.github.io/Research-Office/assets/video/le-bureau-intro.mp4)**
+▶ **[Watch the full film (63 s, with narration and music)](https://bureau.jemappellehuong.com/assets/video/le-bureau-intro.mp4)**
 
 A one-minute tour of the office with English narration and captions. The same
 film opens from the *Watch the intro* button on the start screen
