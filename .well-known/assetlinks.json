@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.thuyhuongctu.lebureau",
+      "sha256_cert_fingerprints": [
+        "7B:1A:4B:84:D4:93:00:69:A3:DA:9C:62:8A:42:44:3B:F5:80:C7:5C:30:58:51:0C:F0:92:B3:19:9D:C6:DA:96"
+      ]
+    }
+  }
+]
